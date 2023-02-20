@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="1.css">
+</head>
+<body>
+	<div class="calculator">
+		<div class="screen">
+			<input type="text" id="result" value="0">
+		</div>
+		<div class="keys">
+			<button class="key clear" onclick="clearResult()">C</button>
+			<button class="key clear" onclick="backspace()">CE</button>
+			<button class="key operator" onclick="insert('+')">+</button>
+			<button class="key operator" onclick="insert('-')">-</button>
+			<button class="key operator" onclick="insert('*')">&times;</button>
+			<button class="key operator" onclick="insert('/')">&divide;</button>
+			<button class="key equals" onclick="calculate()">=</button>
+			<button class="key number" onclick="insert('7')">7</button>
+			<button class="key number" onclick="insert('8')">8</button>
+			<button class="key number" onclick="insert('9')">9</button>
+			<button class="key number" onclick="insert('4')">4</button>
+			<button class="key number" onclick="insert('5')">5</button>
+			<button class="key number" onclick="insert('6')">6</button>
+			<button class="key number" onclick="insert('1')">1</button>
+			<button class="key number" onclick="insert('2')">2</button>
+			<button class="key number" onclick="insert('3')">3</button>
+			<button class="key number" onclick="insert('0')">0</button>
+			<button class="key number" onclick="insert('.')">.</button>
+		</div>
+	</div>
+	<script src="1.js"></script>
+</body>
+</html>
